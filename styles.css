@@ -177,9 +177,11 @@ footer {
 }
 
 .foto-tarjeta {
-    height: 190px;
-    object-fit: cover;
-    border-radius: 14px;
+    width: 100% !important;
+    height: 180px !important;
+    object-fit: cover !important; /* Esto recorta lo sobrante sin deformar la foto */
+    object-position: top center !important; /* Muestra la parte superior de tus capturas */
+    border-radius: 14px 14px 0 0;
 }
 
 .etiqueta-categoria {
